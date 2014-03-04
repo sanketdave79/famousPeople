@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4509183D1889ED6100DA1232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4509183C1889ED6100DA1232 /* Foundation.framework */; };
+		4509183F1889ED6100DA1232 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4509183E1889ED6100DA1232 /* CoreGraphics.framework */; };
+		450918411889ED6100DA1232 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450918401889ED6100DA1232 /* UIKit.framework */; };
+		450918471889ED6100DA1232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 450918451889ED6100DA1232 /* InfoPlist.strings */; };
+		450918491889ED6100DA1232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 450918481889ED6100DA1232 /* main.m */; };
+		4509184D1889ED6100DA1232 /* famouspeopleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4509184C1889ED6100DA1232 /* famouspeopleAppDelegate.m */; };
+		450918501889ED6100DA1232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4509184E1889ED6100DA1232 /* Main.storyboard */; };
+		450918531889ED6100DA1232 /* famouspeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450918521889ED6100DA1232 /* famouspeopleViewController.m */; };
+		450918551889ED6100DA1232 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450918541889ED6100DA1232 /* Images.xcassets */; };
+		4509185C1889ED6200DA1232 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4509185B1889ED6200DA1232 /* XCTest.framework */; };
+		4509185D1889ED6200DA1232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4509183C1889ED6100DA1232 /* Foundation.framework */; };
+		4509185E1889ED6200DA1232 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450918401889ED6100DA1232 /* UIKit.framework */; };
+		450918661889ED6200DA1232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 450918641889ED6200DA1232 /* InfoPlist.strings */; };
+		450918681889ED6200DA1232 /* famousPeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 450918671889ED6200DA1232 /* famousPeopleTests.m */; };
+		45091873188A0D0F00DA1232 /* famouspeopleByClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45091872188A0D0F00DA1232 /* famouspeopleByClickViewController.m */; };
+		45091876188A0D3400DA1232 /* famouspeopleByShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45091875188A0D3400DA1232 /* famouspeopleByShakeViewController.m */; };
+		4509187A188A298D00DA1232 /* gandhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 45091877188A298D00DA1232 /* gandhi.png */; };
+		4509187B188A298D00DA1232 /* rai.png in Resources */ = {isa = PBXBuildFile; fileRef = 45091878188A298D00DA1232 /* rai.png */; };
+		4509187C188A298D00DA1232 /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 45091879188A298D00DA1232 /* sunny.png */; };
+		450918CB188A3BD900DA1232 /* DropDownViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 450918C8188A3BD900DA1232 /* DropDownViewCell.m */; };
+		450918CC188A3BD900DA1232 /* DropDownListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 450918CA188A3BD900DA1232 /* DropDownListView.m */; };
+		454E865D189667BB00495F94 /* famouspeopleProfileObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E865C189667BB00495F94 /* famouspeopleProfileObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4509185F1889ED6200DA1232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450918311889ED6100DA1232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450918381889ED6100DA1232;
+			remoteInfo = famousPeople;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		450918391889ED6100DA1232 /* famousPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = famousPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4509183C1889ED6100DA1232 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4509183E1889ED6100DA1232 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		450918401889ED6100DA1232 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		450918441889ED6100DA1232 /* famousPeople-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "famousPeople-Info.plist"; sourceTree = "<group>"; };
+		450918461889ED6100DA1232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		450918481889ED6100DA1232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4509184A1889ED6100DA1232 /* famousPeople-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "famousPeople-Prefix.pch"; sourceTree = "<group>"; };
+		4509184B1889ED6100DA1232 /* famouspeopleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = famouspeopleAppDelegate.h; sourceTree = "<group>"; };
+		4509184C1889ED6100DA1232 /* famouspeopleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = famouspeopleAppDelegate.m; sourceTree = "<group>"; };
+		4509184F1889ED6100DA1232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		450918511889ED6100DA1232 /* famouspeopleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = famouspeopleViewController.h; sourceTree = "<group>"; };
+		450918521889ED6100DA1232 /* famouspeopleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = famouspeopleViewController.m; sourceTree = "<group>"; };
+		450918541889ED6100DA1232 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4509185A1889ED6200DA1232 /* famousPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = famousPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4509185B1889ED6200DA1232 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		450918631889ED6200DA1232 /* famousPeopleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "famousPeopleTests-Info.plist"; sourceTree = "<group>"; };
+		450918651889ED6200DA1232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		450918671889ED6200DA1232 /* famousPeopleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = famousPeopleTests.m; sourceTree = "<group>"; };
+		45091871188A0D0F00DA1232 /* famouspeopleByClickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = famouspeopleByClickViewController.h; sourceTree = "<group>"; };
+		45091872188A0D0F00DA1232 /* famouspeopleByClickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = famouspeopleByClickViewController.m; sourceTree = "<group>"; };
+		45091874188A0D3400DA1232 /* famouspeopleByShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = famouspeopleByShakeViewController.h; sourceTree = "<group>"; };
+		45091875188A0D3400DA1232 /* famouspeopleByShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = famouspeopleByShakeViewController.m; sourceTree = "<group>"; };
+		45091877188A298D00DA1232 /* gandhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gandhi.png; sourceTree = "<group>"; };
+		45091878188A298D00DA1232 /* rai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rai.png; sourceTree = "<group>"; };
+		45091879188A298D00DA1232 /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunny.png; sourceTree = "<group>"; };
+		450918C7188A3BD900DA1232 /* DropDownViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownViewCell.h; sourceTree = "<group>"; };
+		450918C8188A3BD900DA1232 /* DropDownViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownViewCell.m; sourceTree = "<group>"; };
+		450918C9188A3BD900DA1232 /* DropDownListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownListView.h; sourceTree = "<group>"; };
+		450918CA188A3BD900DA1232 /* DropDownListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownListView.m; sourceTree = "<group>"; };
+		454E865B189667BB00495F94 /* famouspeopleProfileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = famouspeopleProfileObject.h; sourceTree = "<group>"; };
+		454E865C189667BB00495F94 /* famouspeopleProfileObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = famouspeopleProfileObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450918361889ED6100DA1232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509183F1889ED6100DA1232 /* CoreGraphics.framework in Frameworks */,
+				450918411889ED6100DA1232 /* UIKit.framework in Frameworks */,
+				4509183D1889ED6100DA1232 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450918571889ED6200DA1232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509185C1889ED6200DA1232 /* XCTest.framework in Frameworks */,
+				4509185E1889ED6200DA1232 /* UIKit.framework in Frameworks */,
+				4509185D1889ED6200DA1232 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450918301889ED6100DA1232 = {
+			isa = PBXGroup;
+			children = (
+				450918421889ED6100DA1232 /* famousPeople */,
+				450918611889ED6200DA1232 /* famousPeopleTests */,
+				4509183B1889ED6100DA1232 /* Frameworks */,
+				4509183A1889ED6100DA1232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4509183A1889ED6100DA1232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450918391889ED6100DA1232 /* famousPeople.app */,
+				4509185A1889ED6200DA1232 /* famousPeopleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4509183B1889ED6100DA1232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4509183C1889ED6100DA1232 /* Foundation.framework */,
+				4509183E1889ED6100DA1232 /* CoreGraphics.framework */,
+				450918401889ED6100DA1232 /* UIKit.framework */,
+				4509185B1889ED6200DA1232 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		450918421889ED6100DA1232 /* famousPeople */ = {
+			isa = PBXGroup;
+			children = (
+				4509184B1889ED6100DA1232 /* famouspeopleAppDelegate.h */,
+				4509184C1889ED6100DA1232 /* famouspeopleAppDelegate.m */,
+				4509184E1889ED6100DA1232 /* Main.storyboard */,
+				450918511889ED6100DA1232 /* famouspeopleViewController.h */,
+				450918521889ED6100DA1232 /* famouspeopleViewController.m */,
+				45091871188A0D0F00DA1232 /* famouspeopleByClickViewController.h */,
+				45091872188A0D0F00DA1232 /* famouspeopleByClickViewController.m */,
+				454E865B189667BB00495F94 /* famouspeopleProfileObject.h */,
+				454E865C189667BB00495F94 /* famouspeopleProfileObject.m */,
+				45091874188A0D3400DA1232 /* famouspeopleByShakeViewController.h */,
+				45091875188A0D3400DA1232 /* famouspeopleByShakeViewController.m */,
+				450918CD188A3BE200DA1232 /* DropDownMenu */,
+				450918541889ED6100DA1232 /* Images.xcassets */,
+				450918431889ED6100DA1232 /* Supporting Files */,
+			);
+			path = famousPeople;
+			sourceTree = "<group>";
+		};
+		450918431889ED6100DA1232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45091877188A298D00DA1232 /* gandhi.png */,
+				45091878188A298D00DA1232 /* rai.png */,
+				45091879188A298D00DA1232 /* sunny.png */,
+				450918441889ED6100DA1232 /* famousPeople-Info.plist */,
+				450918451889ED6100DA1232 /* InfoPlist.strings */,
+				450918481889ED6100DA1232 /* main.m */,
+				4509184A1889ED6100DA1232 /* famousPeople-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		450918611889ED6200DA1232 /* famousPeopleTests */ = {
+			isa = PBXGroup;
+			children = (
+				450918671889ED6200DA1232 /* famousPeopleTests.m */,
+				450918621889ED6200DA1232 /* Supporting Files */,
+			);
+			path = famousPeopleTests;
+			sourceTree = "<group>";
+		};
+		450918621889ED6200DA1232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				450918631889ED6200DA1232 /* famousPeopleTests-Info.plist */,
+				450918641889ED6200DA1232 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		450918CD188A3BE200DA1232 /* DropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				450918C7188A3BD900DA1232 /* DropDownViewCell.h */,
+				450918C8188A3BD900DA1232 /* DropDownViewCell.m */,
+				450918C9188A3BD900DA1232 /* DropDownListView.h */,
+				450918CA188A3BD900DA1232 /* DropDownListView.m */,
+			);
+			name = DropDownMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450918381889ED6100DA1232 /* famousPeople */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4509186B1889ED6200DA1232 /* Build configuration list for PBXNativeTarget "famousPeople" */;
+			buildPhases = (
+				450918351889ED6100DA1232 /* Sources */,
+				450918361889ED6100DA1232 /* Frameworks */,
+				450918371889ED6100DA1232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = famousPeople;
+			productName = famousPeople;
+			productReference = 450918391889ED6100DA1232 /* famousPeople.app */;
+			productType = "com.apple.product-type.application";
+		};
+		450918591889ED6200DA1232 /* famousPeopleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4509186E1889ED6200DA1232 /* Build configuration list for PBXNativeTarget "famousPeopleTests" */;
+			buildPhases = (
+				450918561889ED6200DA1232 /* Sources */,
+				450918571889ED6200DA1232 /* Frameworks */,
+				450918581889ED6200DA1232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450918601889ED6200DA1232 /* PBXTargetDependency */,
+			);
+			name = famousPeopleTests;
+			productName = famousPeopleTests;
+			productReference = 4509185A1889ED6200DA1232 /* famousPeopleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		450918311889ED6100DA1232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = famouspeople;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Techmentation;
+				TargetAttributes = {
+					450918591889ED6200DA1232 = {
+						TestTargetID = 450918381889ED6100DA1232;
+					};
+				};
+			};
+			buildConfigurationList = 450918341889ED6100DA1232 /* Build configuration list for PBXProject "famousPeople" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450918301889ED6100DA1232;
+			productRefGroup = 4509183A1889ED6100DA1232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450918381889ED6100DA1232 /* famousPeople */,
+				450918591889ED6200DA1232 /* famousPeopleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450918371889ED6100DA1232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509187A188A298D00DA1232 /* gandhi.png in Resources */,
+				4509187C188A298D00DA1232 /* sunny.png in Resources */,
+				4509187B188A298D00DA1232 /* rai.png in Resources */,
+				450918551889ED6100DA1232 /* Images.xcassets in Resources */,
+				450918471889ED6100DA1232 /* InfoPlist.strings in Resources */,
+				450918501889ED6100DA1232 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450918581889ED6200DA1232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450918661889ED6200DA1232 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450918351889ED6100DA1232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509184D1889ED6100DA1232 /* famouspeopleAppDelegate.m in Sources */,
+				450918CB188A3BD900DA1232 /* DropDownViewCell.m in Sources */,
+				450918491889ED6100DA1232 /* main.m in Sources */,
+				45091873188A0D0F00DA1232 /* famouspeopleByClickViewController.m in Sources */,
+				45091876188A0D3400DA1232 /* famouspeopleByShakeViewController.m in Sources */,
+				450918531889ED6100DA1232 /* famouspeopleViewController.m in Sources */,
+				454E865D189667BB00495F94 /* famouspeopleProfileObject.m in Sources */,
+				450918CC188A3BD900DA1232 /* DropDownListView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450918561889ED6200DA1232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450918681889ED6200DA1232 /* famousPeopleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		450918601889ED6200DA1232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450918381889ED6100DA1232 /* famousPeople */;
+			targetProxy = 4509185F1889ED6200DA1232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		450918451889ED6100DA1232 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450918461889ED6100DA1232 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4509184E1889ED6100DA1232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4509184F1889ED6100DA1232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		450918641889ED6200DA1232 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450918651889ED6200DA1232 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		450918691889ED6200DA1232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4509186A1889ED6200DA1232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4509186C1889ED6200DA1232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "famousPeople/famousPeople-Prefix.pch";
+				INFOPLIST_FILE = "famousPeople/famousPeople-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4509186D1889ED6200DA1232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "famousPeople/famousPeople-Prefix.pch";
+				INFOPLIST_FILE = "famousPeople/famousPeople-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4509186F1889ED6200DA1232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/famousPeople.app/famousPeople";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "famousPeople/famousPeople-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "famousPeopleTests/famousPeopleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		450918701889ED6200DA1232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/famousPeople.app/famousPeople";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "famousPeople/famousPeople-Prefix.pch";
+				INFOPLIST_FILE = "famousPeopleTests/famousPeopleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450918341889ED6100DA1232 /* Build configuration list for PBXProject "famousPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450918691889ED6200DA1232 /* Debug */,
+				4509186A1889ED6200DA1232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4509186B1889ED6200DA1232 /* Build configuration list for PBXNativeTarget "famousPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4509186C1889ED6200DA1232 /* Debug */,
+				4509186D1889ED6200DA1232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4509186E1889ED6200DA1232 /* Build configuration list for PBXNativeTarget "famousPeopleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4509186F1889ED6200DA1232 /* Debug */,
+				450918701889ED6200DA1232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 450918311889ED6100DA1232 /* Project object */;
+}
